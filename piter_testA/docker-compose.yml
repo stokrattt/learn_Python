@@ -1,0 +1,10 @@
+version: '2'
+services:
+  ubuntu:
+    build: .
+    container_name: stokratt-ubuntu
+    stdin_open: true
+    tty: true
+
+    volumes:
+     - ./src:/var/src
