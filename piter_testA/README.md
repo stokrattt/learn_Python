@@ -1,15 +1,8 @@
 <body>
 <!-- -->
 
-<h2>Simple Python + Pytest + Selenium + Allure automation test project</h2>
+<h2>Python + Pytest + Selenium + Allure automation test project</h2>
 
-<div>
-<ul>
-	<li>Created some tests</li>
-	<li>Created tests configuration</li>
-	<li>Enabled allure reporter</li>
-</ul>
-</div>
 
 <div>
 <h3>To integrate PyCharm with PyTest</h3>
@@ -17,21 +10,11 @@
 <div>
 
 <div>
-<h3>To run marked tests </h3>
-<p>For example: you have tests @pytest.mark.uitest that execute them you need to:<br>
-pytest -m uitest</p>
+<h3>Создание контейнера </h3>
+<p>Для создания контейнера, нужно находясь внутри директории learn_Python  выполнить команду: docker build -t my_test:v0.2 piter_testA/
+	Метка и версия могут быть произвольными</p>
 <div>
 
-<div>
-<h3>To rerun tests </h3>
-<p>For rerun failed tests:<br>
-pytest --reruns 2</p>
-<div>
-
-<div>
-<h3>To run tests in paralell</h3>
-<p>pytest /tests -n 3<p>
-</div>
 
 <div>
 <h3>To generate HTML report:</h3>
